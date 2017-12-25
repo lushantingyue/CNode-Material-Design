@@ -1,17 +1,17 @@
 apply plugin: 'com.android.application'
 
-String umengAppKey = System.getenv('CNODEMD_UMENG_APP_KEY')
-File localPropertiesFile = project.rootProject.file('local.properties')
-if (localPropertiesFile.exists()) {
-    Properties properties = new Properties()
-    properties.load(localPropertiesFile.newDataInputStream())
-    umengAppKey = properties.getProperty('umeng.appkey', umengAppKey)
-}
+//String umengAppKey = System.getenv('CNODEMD_UMENG_APP_KEY')
+//File localPropertiesFile = project.rootProject.file('local.properties')
+//if (localPropertiesFile.exists()) {
+//    Properties properties = new Properties()
+//    properties.load(localPropertiesFile.newDataInputStream())
+//    umengAppKey = properties.getProperty('umeng.appkey', umengAppKey)
+//}
 
 android {
 
     compileSdkVersion 25
-    buildToolsVersion '25.0.3'
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId 'org.cnodejs.android.md'
@@ -20,10 +20,10 @@ android {
         versionCode Integer.parseInt(new Date().format('yyyyMMdd'))
         versionName '1.3.0'
 
-        manifestPlaceholders = [
-                UMENG_APPKEY: umengAppKey,
-                UMENG_CHANNEL: 'CNodeJS'
-        ]
+//        manifestPlaceholders = [
+//                UMENG_APPKEY: umengAppKey,
+//                UMENG_CHANNEL: 'CNodeJS'
+//        ]
     }
 
     buildTypes {

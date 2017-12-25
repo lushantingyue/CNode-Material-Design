@@ -144,14 +144,14 @@ public class ReplyListAdapter extends BaseAdapter {
         protected void updateReplyViews(@NonNull Reply reply, int position, @Nullable Integer targetPosition) {
             Glide.with(activity).load(reply.getAuthor().getAvatarUrl()).placeholder(R.drawable.image_placeholder).dontAnimate().into(imgAvatar);
             tvLoginName.setText(reply.getAuthor().getLoginName());
-            tvIndex.setText(activity.getString(R.string.$d_floor, position + 1));
+            tvIndex.setText(activity.getString(R.string._val_d_floor, position + 1));
             tvCreateTime.setText(FormatUtils.getRelativeTimeSpanString(reply.getCreateAt()));
             updateUpViews(reply);
             if (targetPosition == null) {
                 tvTargetPosition.setVisibility(View.GONE);
             } else {
                 tvTargetPosition.setVisibility(View.VISIBLE);
-                tvTargetPosition.setText(activity.getString(R.string.reply_$d_floor, targetPosition + 1));
+                tvTargetPosition.setText(activity.getString(R.string.reply__val_d_floor, targetPosition + 1));
             }
 
             // 这里直接使用WebView，有性能问题

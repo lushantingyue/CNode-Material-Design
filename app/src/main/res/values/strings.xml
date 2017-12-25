@@ -54,23 +54,23 @@
     <string name="cancel">取消</string>
     <string name="ok">好的</string>
 
-    <string name="topic_$s">话题：%s</string>
-    <string name="$d_floor">%d楼</string>
-    <string name="reply_$d_floor">回复：%d楼</string>
-    <string name="create_at_$s">创建于：%s</string>
-    <string name="score_$d">积分：%d</string>
-    <string name="register_time_$s">注册时间：%s</string>
-    <string name="$s_create">%s创建</string>
-    <string name="$d_count_visit">%d次浏览</string>
-    <string name="$d_count_reply">%d条回复</string>
-    <string name="$slash">/</string>
-    <string name="$dot">•</string>
+    <string name="topic__val_s">话题：%s</string>
+    <string name="_val_d_floor">%d楼</string>
+    <string name="reply__val_d_floor">回复：%d楼</string>
+    <string name="create_at__val_s">创建于：%s</string>
+    <string name="score__val_d">积分：%d</string>
+    <string name="register_time__val_s">注册时间：%s</string>
+    <string name="_val_s_create">%s创建</string>
+    <string name="_val_d_count_visit">%d次浏览</string>
+    <string name="_val_d_count_reply">%d条回复</string>
+    <string name="_val_slash">/</string>
+    <string name="_val_dot">•</string>
 
     <string name="at_you_in_topic">在话题中@了您</string>
     <string name="at_you_in_reply">在回复中@了您</string>
     <string name="reply_your_topic">回复了您的话题</string>
 
-    <string name="access_token_$">Access Token :</string>
+    <string name="access_token__val_">Access Token :</string>
     <string name="qr_code_login">扫码登录</string>
     <string name="github_login">GitHub登录</string>
     <string name="scan_qr_code">扫描二维码</string>
@@ -80,7 +80,7 @@
     <string name="go_to_setting">去设置</string>
     <string name="can_not_open_camera">无法打开相机</string>
     <string name="qr_code_tip">将二维码放入扫描框内</string>
-    <string name="$_how_to_get_access_token_$"><u>如何获取Access Token？</u></string>
+    <string name="_val__how_to_get_access_token__val_"><u>如何获取Access Token？</u></string>
     <string name="how_to_get_access_token_tip_content">在CNode社区网站端登录你的账户，然后在右上角找到「设置」按钮，点击进入后将页面滑动到最底部来查看你的Access Token。</string>
 
     <string name="current_version">当前版本</string>
@@ -121,7 +121,7 @@
     <string name="open_in_browser">在浏览器中打开</string>
     <string name="share">分享</string>
     <string name="send">发送</string>
-    <string name="send_to_tab_$">发布到分类：</string>
+    <string name="send_to_tab__val_">发布到分类：</string>
 
     <string name="create_topic_title_hint">标题，字数10字以上</string>
     <string name="create_topic_content_hint">说点什么吧&#8230;</string>
@@ -129,7 +129,7 @@
     <string name="title">标题</string>
     <string name="add_link">添加连接</string>
     <string name="link">连接</string>
-    <string name="http_$">http://</string>
+    <string name="http__val_">http://</string>
 
     <string name="markdown_preview">Markdown预览</string>
     <string name="image_preview">查看图片</string>
